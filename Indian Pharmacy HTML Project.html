@@ -1,0 +1,209 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to our Indian Pharmacy Shop, dedicated to health and wellness. We provide a wide range of medical supplies and professional services.">
+    <title>Indian Pharmacy Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+        .banner {
+            height: 100vh;
+            background: #c1846d52;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .card img {
+            height: 200px;
+            object-fit: cover;
+        }
+        .footer {
+            background-color:  #75a08843;
+            padding: 10px 0;
+        }
+        .service-icon {
+            font-size: 40px;
+            color: #070808;
+        }
+        .hover-effect {
+            transition: transform 0.2s;
+        }
+        .hover-effect:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Yawalikar Pharmacy</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Homepage Banner -->
+    <header id="home" class="banner">
+        <div class="container text-center">
+            <h1>Welcome to Our Pharmacy</h1>
+            <p>Your health and wellness is our priority!</p>
+        </div>
+    </header>
+
+
+<!-- Carousel for Featured Products -->
+    <div id="productCarousel" class="carousel slide my-4" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://media.sortly.com/wp-content/uploads/2018/07/12130452/Flat-lay-of-various-medical-supplies-on-gray-background-624567292_2125x1416-1200x628.jpeg.webp" class="d-block w-100" alt="Medical Supplies">
+            </div>
+            <div class="carousel-item">
+                <img src="https://medicalcallservice.com/wp-content/uploads/2019/11/List-of-Medical-Supplies.jpg" class="d-block w-100" alt="Health and Wellness">
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1592173901457-c300f3ae23b0" class="d-block w-100" alt="Pharmaceutical Products">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Products Section -->
+    <section id="products" class="container my-5">
+        <h2>Our Products</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card hover-effect">
+                    <img src="https://accessiblemeds.org/sites/default/files/2021-01/AAM-Prescription-Savings-Rx4Savings-7-policy-solutions-infographic.png" class="card-img-top" alt="Prescription Medicines">
+                    <div class="card" style="width: 18rem;">
+                        
+                        <div class="card-body">
+                            <h5 class="card-title">Prescription Medicines</h5>
+                            <p class="card-text">Available upon consultation with our certified pharmacists.</p>
+                            <a href="https://www.rxlist.com/" target="_blank">
+                                <button class="btn btn-primary">View Details</button>
+                            </a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card hover-effect">
+                    <img src="https://today.uconn.edu/wp-content/uploads/2021/10/AdobeStock_217828923-998x665.jpeg" class="card-img-top" alt="Over-the-Counter Medicines">
+                    <div class="card-body">
+                        <h5 class="card-title">Over-the-Counter Medicines</h5>
+                        <p class="card-text">Find relief for common ailments without a prescription.</p>
+                        <a href="https://medlineplus.gov/overthecountermedicines.html" target="_blank">
+                            <button class="btn btn-primary">View Details</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+                </div>
+            </div>
+            <div class="col-md-4">
+    <div class="card hover-effect">
+        <img src="https://ncrfoodsupplements.com/wp-content/uploads/2023/07/gold_standard.jpeg" class="card-img-top" alt="Health Supplements">
+        <div class="card-body">
+            <h5 class="card-title">Health Supplements</h5>
+            <p class="card-text">Boost your health with our quality supplements.</p>
+            <a href="https://www.thehimalayanorganics.in/collections/nutritional-supplements?srsltid=AfmBOoqTc9xsdiL_sOKP2BqeE1ZA5QT87o1VT6E7kJCc9se2b5zAAV_I" target="_blank">
+                <button class="btn btn-primary">View Details</button>
+            </a>
+        </div>
+    </div>
+</div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Services Section -->
+    <section id="services" class="container my-5">
+        <h2>Our Services</h2>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <div class="service-icon">💊</div>
+                <h5>Prescription Refills</h5>
+                <p>Easily refill your prescriptions online or in-store.</p>
+            </div>
+            <div class="col-md-4">
+                <div class="service-icon">🩺</div>
+                <h5>Health Consultations</h5>
+                <p>Consult with our pharmacists for personalized health advice.</p>
+            </div>
+            <div class="col-md-4">
+                <div class="service-icon">🚚</div>
+                <h5>Home Delivery</h5>
+                <p>Get your medications delivered right to your doorstep.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="container my-5">
+        <h2>About Us</h2>
+        <p>Our pharmacy has been serving the community for over 20 years, providing quality medicines and health services. Our mission is to enhance the health and wellness of our customers through exceptional service and accessible healthcare solutions.</p>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="https://static.vecteezy.com/system/resources/previews/031/552/213/non_2x/advertising-portrait-shot-of-a-team-of-pharmacists-standing-together-in-a-pharmacy-and-smiling-at-the-camera-generative-ai-photo.jpg" class="img-fluid" alt="Our Team">
+            </div>
+            <div class="col-md-6">
+                <img src="https://www.almehwarhospital.com/wp-content/uploads/2023/08/pharma-1600-px.jpg" class="img-fluid" alt="Pharmacy Environment">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container my-5">
+        <h2>Contact Us</h2>
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Your Name</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email Address</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+        <p>&copy; 2024 Indian Pharmacy Shop. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
